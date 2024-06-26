@@ -1,0 +1,84 @@
+.home-container-slide {
+    max-width: 124rem;
+    padding: 4rem 1rem 0 1rem;
+    margin: 0 auto;
+  }
+
+.home-courses_heading {
+    padding: 1rem 0;
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .home-swiper_container {
+    height: 35rem;
+    padding: 2rem 0 0 0;
+    position: relative;
+  }
+
+  .home-swiper-slide {
+    width: 42rem !important;
+    height: 22rem !important;
+  }
+  .home-swiper-slide img {
+    width: 42rem !important;
+    height: 22rem !important;
+  }
+
+
+
+
+
+  @media (max-width: 910px) {
+    .home-swiper_container {
+      height: 31rem;
+    }
+    .home-swiper-slide {
+      width: 38rem !important;
+      height: 22rem !important;
+    }
+    .home-swiper-slide img {
+      width: 38rem !important;
+      height: 22rem !important;
+    }
+
+    .home-courses_heading{
+      font-size: 40px;
+    }
+}  
+
+@media (max-width: 768px) {
+    .home-swiper_container {
+      height: 28rem;
+    }
+    .home-swiper-slide {
+      width: 33rem !important;
+      height: 20rem !important;
+    }
+    .home-swiper-slide img {
+      width: 33rem !important;
+      height: 20rem !important;
+    }
+
+    .home-courses_heading {
+      font-size: 30px;
+    }
+}  
+
+@media (max-width: 600px) {
+  .home-swiper_container {
+    height: 25rem;
+  }
+  .home-swiper-slide {
+    width: 28rem !important;
+    height: 15rem !important;
+  }
+  .home-swiper-slide img {
+    width: 28rem !important;
+    height: 15rem !important;
+  }
+
+  .home-courses_heading {
+    font-size: 27px;
+  }
+}

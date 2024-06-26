@@ -1,0 +1,31 @@
+.choose-image {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    z-index: -1;
+    opacity: 0.5;
+    margin-top: -100px;
+}
+
+.choose-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1440px;
+    height: 800px;
+    z-index: 2;
+    position: relative;
+}
+
+.choose-wrapper1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.choose-text2 {
+    display: grid;
+    justify-content: space-around;
+    align-content: space-around;
+}

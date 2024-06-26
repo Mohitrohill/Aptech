@@ -1,0 +1,153 @@
+.sub-nav {
+    box-sizing: border-box;
+    
+    padding: 20px;
+    background-color: #ffc400;
+}
+
+.sub-nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    line-height: 12px;
+}
+
+.subnav-phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subnav-whatsapp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subnav-time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-phone {
+    color: black;
+    font-size: 30px;
+}
+
+.fa-whatsapp {
+    color: black;
+    font-size: 33px;
+}
+
+.fa-clock {
+    color: black;
+    font-size: 30px;
+}
+
+.phone-no {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.clock-text {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+@media (max-width: 910px) {
+    .sub-nav-container {
+        line-height: 8px;
+    }
+
+    .fa-phone {
+        font-size: 27px;
+    }
+
+    .fa-whatsapp {
+        font-size: 29px;
+    }
+    
+    .fa-clock {
+        font-size: 27px;
+    }
+    
+    .phone-no {
+        font-size: 17px;
+    }
+    
+    .clock-text {
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    .phone {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sub-nav-container {
+        line-height: 6px;
+    }
+
+    .fa-phone {
+        font-size: 24px;
+    }
+
+    .fa-whatsapp {
+        font-size: 26px;
+    }
+    
+    .fa-clock {
+        font-size: 24px;
+    }
+    
+    .phone-no {
+        font-size: 14px;
+    }
+    
+    .clock-text {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .phone {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 600px) {
+    .sub-nav-container {
+        line-height: 4px;
+    }
+
+    .fa-phone {
+        font-size: 22px;
+    }
+
+    .fa-whatsapp {
+        font-size: 24px;
+    }
+    
+    .fa-clock {
+        font-size: 22px;
+    }
+    
+    .phone-no {
+        font-size: 12px;
+    }
+    
+    .clock-text {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .phone {
+        font-size: 12px;
+    }
+}
